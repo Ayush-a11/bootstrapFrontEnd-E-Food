@@ -13,35 +13,44 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top ">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="/index.html"><h1>e-<span style="color:green;">Food</span></h1></a>
+	<nav class="navbar navbar-default navbar-fixed-top" style="padding:25px" ;="">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="index.html" style="margin-top:-20%;"><h1>e-<span style="color:green;">Food</span></h1></a>
+		  </div>
+		  <div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav" style="font-size:20px" ;="">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#steps">Steps</a></li>
+				<li><a href="#review">Reviews</a></li>
+				<li><a href="#review">About Us</a></li>
+				<li><div class="dropdown" style="padding-top:10px" ;="">
+				<span class="glyphicon glyphicon-map-marker"></span>
+		  <button class="btn btn-link" type="button" data-toggle="dropdown" style="font-size:20px">Choose your location
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+			<li><a href="Andheri.html">Andheri</a></li>
+			<li><a href="Bandra.html">Bandra</a></li>
+			<li><a href="Borivali.html">Borivali</a></li>
+			<li><a href="Kandivali.html">Kandivali</a></li>
+		  </ul>
 		</div>
-
-		<ul class="nav navbar-nav ">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#steps">Steps</a></li>
-			<li><a href="#review">Review</a></li>
-			<li><a href="#review">About us</a></li>
-			<li><i class="fas fa-map-marker-alt"></i></li>
-			
-		</ul>
-		<div class="dropdown">
-			<button class="btn btn-link" type="button" data-toggle="dropdown" style="font-size:20px">Choose your location
-				<span class="caret"></span></button>
-				<ul class="dropdown-menu">
-				  <li><a href="boot.html">Andheri</a></li>
-				  <li><a href="boot2.html">Bandra</a></li>
-				  <li><a href="boot3.html">Borivali</a></li>
-				  <li><a href="boot1.html">Kandivali</a></li>
-				</ul>
-			
+		  </li>
+		  </ul>
+			   <ul class="nav navbar-nav navbar-right">
+			  <li><a href="SignUp.html" style="font-size:20px">Sign Up</a></li>
+			  </ul>
+			</div>
+		  </div>
 		</div>
-
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="">SignIn</a></li>
-		</ul>
-	</nav>
+		
+	  </nav>
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -52,16 +61,16 @@
 	  
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
-		  <div class="item active">
-			<img src="https://images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+		  <div  class="item active">
+			<img  id="im2" src="https://images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
 		  </div>
 	  
 		  <div class="item">
-			<img src="https://images.pexels.com/photos/3214161/pexels-photo-3214161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+			<img id="im2" src="https://images.pexels.com/photos/3214161/pexels-photo-3214161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
 		  </div>
 	  
 		  <div class="item">
-			<img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+			<img id="im2" src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
 		  </div>
 		</div>
 	  
@@ -76,7 +85,7 @@
 		</a>
 	  </div>
 	  <h1>Easy Steps to follow</h1>
-	  <div id="#steps" class="MainContent">
+	  <div id="steps" class="MainContent">
 		  <div class="image">
 		  <img src="https://internship.suvenconsultants.com/projects/ubereats/step1.jpeg">
 		  <h1>

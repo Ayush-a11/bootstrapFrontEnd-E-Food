@@ -1,0 +1,32 @@
+body{
+	background-image:url("https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	color:rgb(0, 0, 0);
+}
+.Main{
+	width:85%;
+	height:900px;
+	background-color: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.7);
+	margin-left:8%;
+	margin-top:5%;
+	text-align: left;
+}
+label{
+	font-weight:bold;
+	font-size: 20px;
+
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"]{
+	height:30px;
+	width: 300px;
+	margin-top: 55px;
+}
+.Main1{
+	width:45%;
+	height:400px;
+	background-color: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.7);
+	margin-left:28%;
+	margin-top:25%;
+	text-align: left;
+}
